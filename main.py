@@ -8,7 +8,7 @@ import uuid
 from datetime import datetime
 
 load_dotenv()
-#Initialize Vector Database
+#Initialize pinecone: Vector Database
 pc = Pinecone()
 
 index_name = "semantic-cache"
